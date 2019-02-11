@@ -33,5 +33,4 @@ export class ShoppingCartComponent implements OnInit {
   addItem(item: MenuItem) {
     this.shoppingCartService.addItem(item);
   }
-
 }
