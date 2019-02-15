@@ -370,5 +370,23 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "Rua Rio Madeira ",
+      "number": "1454",
+      "optionalAddress": "Casa",
+      "paymentOption": "CRE",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "sunday"
+        },
+        {
+          "quantity": 1,
+          "menuId": "chocpop"
+        }
+      ],
+      "id": 1
+    }
+  ]
 }
