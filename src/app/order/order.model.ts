@@ -1,5 +1,8 @@
 class Order {
-    constructor(public address: string,
+ 
+    constructor(
+        public id: string,
+        public address: string,
         public number: number,
         public optionalAddress: string,
         public orderItems: OrderItem[] = [],
